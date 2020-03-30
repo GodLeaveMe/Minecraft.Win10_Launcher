@@ -1,0 +1,20 @@
+﻿Minecraft For Windows10 版本管理
+
+
+winexe
+C#
+.cs
+F:\Minecraft.Win10_Launcher\MCLauncher\obj\x64\Release\
+MCLauncher
+none
+false
+DEBUG;TRACE
+F:\Minecraft.Win10_Launcher\MCLauncher\App.xaml
+4-597924262
+1-826860577
+151667975774
+126-934043496
+MainWindow.xaml;MessageWindow.xaml;ProgressWindow.xaml;SettingWindow.xaml;
+
+False
+

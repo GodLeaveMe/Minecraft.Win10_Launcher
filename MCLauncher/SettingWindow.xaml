@@ -1,0 +1,29 @@
+﻿<Window x:Class="MCLauncher.SettingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MCLauncher"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        xmlns:MaterialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="14"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{x:Null}"
+        Title="设置" Height="450" Deactivated="Window_Deactivated" Activated="Window_Activated" Width="800" WindowStartupLocation="CenterScreen" AllowsTransparency="True" WindowStyle="None" BorderBrush="Black" BorderThickness="1">
+    <Grid Background="#22FFFFFF">
+        <Button Name="MainButton" Content="保存" Click="MainButton_Click" HorizontalAlignment="Left" Height="31" Margin="695,404,0,0" VerticalAlignment="Top" Width="83"/>
+        <Grid x:Name="TitlePanel" MouseMove="TitlePanel_MouseMove" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="798" Background="#7F000000">
+            <MaterialDesign:ClockItemButton x:Name="CloseButton" IsTabStop="False" Click="CloseButton_Click" Content="x" Height="30" Margin="765,0,0,0" VerticalAlignment="Top" Width="33" BorderThickness="0" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="White"/>
+            <MaterialDesign:ClockItemButton x:Name="MiniSizeButton" IsTabStop="False" Click="MiniSizeButton_Click"  Content="-" Height="30" Margin="732,0,33,0" VerticalAlignment="Top" Width="33" BorderThickness="0" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="White"/>
+            <Label Name="TitleLabel" Content="设置" HorizontalAlignment="Center" Height="27" Foreground="White" Background="{x:Null}" Margin="364,3,368,2" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        </Grid>
+        <TextBox Name="DownloadPathBox" HorizontalAlignment="Center" Height="34" TextWrapping="Wrap" Text="下载保存目录" VerticalAlignment="Center" Width="498" BorderBrush="Black" Background="White" VerticalContentAlignment="Center" FontSize="15" Margin="150,155,150,259"/>
+        <Label Content="下载保存目录:" HorizontalAlignment="Left" Margin="59,128,0,0" VerticalAlignment="Top" Width="202" Height="28"/>
+        <Button Name="ChooseButton" Click="ChooseButton_Click" Content="选择..." HorizontalAlignment="Left" Height="29" Margin="577,196,0,0" VerticalAlignment="Top" Width="71"/>
+        <CheckBox Name="DelAppxBox" Checked="DelAppxBox_Checked" Content="移除时一并删除安装包(*.Appx)" HorizontalAlignment="Left" Height="23" Margin="150,290,0,0" VerticalAlignment="Top" Width="498" Cursor="Hand"/>
+        <Label Content="高级设置:" HorizontalAlignment="Left" Margin="59,262,0,0" VerticalAlignment="Top" Width="202" Height="28"/>
+    </Grid>
+</Window>
