@@ -1,0 +1,30 @@
+﻿  MIDLRT Processing F:\Minecraft.Win10_Launcher\WUTokenHelper\TokenBrokerInternal.idl
+  TokenBrokerInternal.idl
+  MIDLRT Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\winrt\winrtbase.idl
+  winrtbase.idl
+  MIDLRT Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\winrt\midlbase.idl
+  midlbase.idl
+  Processing WinMD c:\windows\system32\winmetadata\windows.applicationmodel.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.data.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.devices.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.foundation.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.globalization.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.graphics.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.management.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.media.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.networking.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.perception.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.security.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.services.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.storage.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.system.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.ui.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.ui.xaml.winmd
+  Processing WinMD c:\windows\system32\winmetadata\windows.web.winmd
+  Processing WinMD c:\program files (x86)\windows kits\8.1\references\commonconfiguration\neutral\windows.winmd
+  Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.18362.0\windows.foundation.foundationcontract\3.0.0.0\windows.foundation.foundationcontract.winmd
+  Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.18362.0\windows.foundation.universalapicontract\8.0.0.0\windows.foundation.universalapicontract.winmd
+  Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.18362.0\windows.networking.connectivity.wwancontract\2.0.0.0\windows.networking.connectivity.wwancontract.winmd
+  
+midl : error MIDL9008: internal compiler problem - See documentation for suggestions on how to find a workaround.
+  midl: Assertion failed: node == nullptr, file com\rpc\midl\midlrt\metaread\metadataparser.cxx, line 216
