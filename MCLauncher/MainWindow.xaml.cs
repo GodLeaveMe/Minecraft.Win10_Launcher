@@ -403,16 +403,10 @@ namespace MCLauncher {
                 }
             };
             t.Completed += (v, p) => {
-                if (!(src.Task.Exception == null))
-                {
-                    App.WriteLine("部署时出现错误:\n" + src.Task.Exception.ToString());
-                    hasdeperror = true;
-                }
                 if (p == AsyncStatus.Error)
                 {
                     App.WriteLine("部署软件包时出现错误,将会尝试使用PowerShell进行部署.");
                     hasdeperror = true;
-                    src.SetResult(1);
                 }
                 switch (p)
                 {
